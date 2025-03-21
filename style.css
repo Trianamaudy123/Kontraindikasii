@@ -1,0 +1,56 @@
+/* style.css */
+body {
+    background-color: #E3F2FD;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #0D47A1;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #0D47A1;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1565C0;
+    transform: scale(1.05);
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    color: #0D47A1;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #0D47A1;
+    transition: 0.3s;
+}
+
+.input-box:focus {
+    border-color: #1565C0;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(13, 71, 161, 0.5);
+}
+
+.comment-box {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #1565C0;
+}
